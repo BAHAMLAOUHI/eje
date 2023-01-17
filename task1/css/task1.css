@@ -1,0 +1,89 @@
+body{
+  background-color: azure;
+}
+
+
+#container{
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+
+
+#calculator {
+    width: 300px;
+    margin: 0 auto;
+    border-style: double;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+  }
+  
+  #resultat {
+    width: 92% ;
+    padding: 10px;
+    font-size: 1.5em;
+    text-align: right;
+    margin-bottom: 10px;
+    background-color: #eee;
+  }
+  
+  #buttons {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+  }
+  
+  #buttons button {
+    padding: 20px;
+    font-size: 1.5em;
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
+  
+  #buttons .operator {
+    background-color: #ddd;
+  }
+  
+  #buttons #equals {
+    background-color: #00b300;
+    color: #fff;
+  }
+  
+
+
+  /*version 2 de la calculatrice */
+  #calculator2{
+    
+    max-width: 290px;
+    margin: 10px auto;
+    border-style: double;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+
+  }
+
+  #calculator2 .inputt {
+    display: inline-grid;
+  }
+
+  .in{
+    width: 90% ;
+    padding: 10px;
+    font-size: 1.5em;
+    text-align: right;
+    margin-bottom: 10px;
+    background-color: #eee;
+  }
+
+    #calculator2 .buttonn{
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    #calculator2 .buttonn .op{
+      padding: 20px;
+      font-size: 1.5em;
+      background-color: rgb(193, 234, 248);
+      border: 1px solid rgb(78, 78, 78);
+
+    }
+
