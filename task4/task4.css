@@ -1,0 +1,46 @@
+body{
+    background-color: wheat;
+}
+
+#listeEnregistrees {
+    display: flex;
+    flex-direction:column;
+  }
+
+  #listeVaccinees{
+    display: flex;
+    flex-direction:column;
+  }
+
+  
+  
+  .personne {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .personne button {
+    margin-left: 10px;
+    color: white;
+    border-style: double;
+    border-radius: 0 5px 5px 0;
+    margin-bottom: 5px;
+    
+  }
+  .container{
+    max-width: 500px;
+    min-height: 500px;
+    background-color: antiquewhite;
+    text-align: center;
+    margin-left: 250px;
+    padding: 10px;
+    border-style: double;
+    margin-top: 5px;
+
+    
+    
+  }
+  
